@@ -9,7 +9,7 @@
 */
 
 body {
-	font: 300 14px/1.8 '맑은고딕', sans-serif;
+	font: 300 14px/1.8 '留묒�怨좊뵓', sans-serif;
 	color: #fff;
 	overflow-x: hidden;
 }
@@ -300,7 +300,7 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 맑은고딕, sans-serif;
+	font: 700 40px/1.2 留묒�怨좊뵓, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -406,7 +406,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .btn {
-	font-family: 맑은고딕, sans-serif;
+	font-family: 留묒�怨좊뵓, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -507,7 +507,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: 맑은고딕, "Times New Roman", Times, sans-serif;
+	font-family: 留묒�怨좊뵓, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
 	
@@ -678,7 +678,7 @@ textarea.form-control {
 }
 
 .start {
-	font-family: 맑은고딕, "Times New Roman", Times, sans-serif;
+	font-family: 留묒�怨좊뵓, "Times New Roman", Times, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -817,7 +817,7 @@ textarea.form-control {
 	border-radius: 0;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: 맑은고딕, sans-serif;
+	font-family: 留묒�怨좊뵓, sans-serif;
 }
 
 .navbar-custom,
@@ -847,7 +847,7 @@ textarea.form-control {
 	font-weight: 700;
 	font-size: 22px;
     font-family: Arial, cursive; 
-    /*원래 lobster 폰트 였는데, web fonts 로드 시간이 길어져서 변경 함 */
+    /*�썝�옒 lobster �룿�듃 ���뒗�뜲, web fonts 濡쒕뱶 �떆媛꾩씠 湲몄뼱�졇�꽌 蹂�寃� �븿 */
 }
 
 .navbar-custom .dropdown-menu {
@@ -1241,7 +1241,7 @@ figure.effect-bubba:hover p {
 }
 
 .cbp-qtrotator blockquote footer:before {
-	content: '― ';
+	content: '�� ';
 }
 
 .cbp-qtrotator .cbp-qtcontent img {
@@ -1290,4 +1290,20 @@ figure.effect-bubba:hover p {
       width: 100%;
       height: 100%;
    }
+}
+
+
+.ex .arrow_top {width:41px; height:45px; margin: 0 auto;}
+.ex .arrow_top {position:relative; -webkit-animation: myfirst 0.7s linear 1s infinite alternate; /*normal;  Chrome, Safari, Opera */ animation: myfirst 0.7s linear 1s infinite alternate; /*normal;  Standard syntax */}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {opacity: 1.0; top:15px;}
+    100% {opacity: 1.0; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {opacity: 1.0; top:15px;}
+    100% {opacity: 1.0; top:0px;}
 }
